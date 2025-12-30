@@ -32,5 +32,7 @@ Imports:
     rvest,
     crumbsTADeduc3089
 RoxygenNote: 7.3.3
-Remotes:  
+Remotes: 
     filiperecch/crumbsTADeduc3089
+URL: https://github.com/filiperecch/educ3089TaD
+BugReports: https://github.com/filiperecch/educ3089TaD/issues

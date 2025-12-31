@@ -75,13 +75,11 @@ Always start a new lab by creating a dedicated R Project.
 
 
 ### Step 2: Initialize the Project Folders
-Once inside your new project, use the Console (bottom-left) and run these commands to set up your folder structure:
+Once inside your new project, use the Console (bottom-left) and run the following to set up your folder structure:
 
 ```r
-library(educ3089TaD)
-
 # Create folder structure and the file_paths.R:
-create_project_directories()
+educ3089TaD::create_project_directories()
 ```
 
 ### Step 3: Start a New Script

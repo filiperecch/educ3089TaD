@@ -7,7 +7,8 @@ load_paths <- function() {
   } else {
     stop(
       "\n\u274C ERROR: 'file_paths.R' not found.\n",
-      "Please, confirm you are working within a project and run: crumbsTADeduc3089::create_project_directories()",
+      "Please, confirm you are working within a project and run:
+      crumbsTADeduc3089::create_project_directories()",
       call. = FALSE
     )
   }

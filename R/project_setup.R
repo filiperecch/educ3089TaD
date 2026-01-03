@@ -9,14 +9,11 @@ create_project_directories <- function() {
   # 1. Define Standard Folders
   folders <- c(
     "data",
-    "script",
+    "scripts",
     "analysis",
     "R",
     "presentations",
     "support_files",
-    fs::path("script", "R_script"),
-    fs::path("script", "stata_do"),
-    fs::path("script", "python"),
     fs::path("analysis", "tables"),
     fs::path("analysis", "figures"),
     fs::path("analysis", "pdfs"),
@@ -57,12 +54,9 @@ path_tables_folder      <- fs::path(path_analysis_root, "tables")
 path_pdfs_folder        <- fs::path(path_analysis_root, "pdfs")
 path_reports_folder     <- fs::path(path_analysis_root, "reports")
 
-path_script_root        <- fs::path(here::here("script"))
-path_script_R           <- fs::path(path_script_root, "R_script")
-path_script_python      <- fs::path(path_script_root, "python")
-path_script_stata       <- fs::path(path_script_root, "stata_do")
+path_scripts            <- fs::path(here::here("scripts"))
 
-path_presentations_root <- fs::path(here::here("presentations"))
+path_presentations      <- fs::path(here::here("presentations"))
 path_r_objects          <- fs::path(here::here("R"))
 path_support_files      <- fs::path(here::here("support_files"))
 

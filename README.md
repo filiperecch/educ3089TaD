@@ -61,14 +61,14 @@ snippet block_new
 
 ---
 
-## The Lab Workflow
+## PART B: The Lab Workflow
 *Follow these steps every time you start a new assignment.*
 
 ### Step 1: Create a New Project
 Always start a new lab by creating a dedicated R Project.
 1. Go to **File** > **New Project...**
 2. Select **New Directory** > **New Project**.
-3. Name the directory (e.g., `Lab-01-Hello-World`) and choose where to save it.
+3. Name the directory (e.g., `Lab_01_session01`) and choose where to save it.
 4. Click **Create Project**.
 
 > **⚠️ Attention:** Look at the top-right corner of your RStudio window. It should show the name of your project (e.g., `Lab-01...`). If it says `Project: (None)`, you are NOT in a project, and your code will likely fail.
@@ -82,7 +82,7 @@ Once inside your new project, use the Console (bottom-left) and run the followin
 educ3089TaD::create_project_directories()
 ```
 
-### Step 3: Start a New Script
+### Step 3: Start a New Script 
 1. Go to **File** > **New File** > **R Script**.
 2. Type `educ_preamble` and hit **Enter** (or select it from the popup menu).
 3. This will automatically generate your file header, load the necessary libraries, and source the file paths you just created.
@@ -90,3 +90,6 @@ educ3089TaD::create_project_directories()
 ### Step 4: Keep Your Code Organized
 As you work through the lab, keep your code organized by using section breaks.
 * Type `block_new` and hit **Enter** to insert a clean section divider.
+
+### Step 5: Save Your Script
+When done, hit save, name your script, making sure to add your initials to the end of the file name, and choose a location to save (ideally inside the 'scripts' folder within your R Project). 

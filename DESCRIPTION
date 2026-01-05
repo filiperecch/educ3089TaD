@@ -32,12 +32,10 @@ Imports:
     naivebayes,
     purrr,
     quanteda,
-    quanteda.textmodels,
     quanteda.textplots,
     quanteda.textstats,
     readtext,
     rvest,
-    stm,
     textdata,
     textrecipes,
     tidymodels,
@@ -48,6 +46,8 @@ Imports:
 Suggests:
     mall,
     pdftools,
+    quanteda.textmodels,
+    stm,
     tesseract,
     text
 URL: https://github.com/filiperecch/educ3089TaD

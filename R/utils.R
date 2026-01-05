@@ -37,7 +37,7 @@ load_paths <- function() {
 install_extra_packages <- function() {
 
   # List of suggested packages (must match Suggests in DESCRIPTION)
-  pkgs <- c("mall", "pdftools", "tesseract", "text")
+  pkgs <- c("mall", "pdftools", "quanteda.textmodels", "stm", "tesseract", "text")
 
   # Filter to only those NOT already installed
   new_pkgs <- pkgs[!(pkgs %in% installed.packages()[,"Package"])]

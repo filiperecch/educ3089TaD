@@ -7,5 +7,6 @@
 load_paths()
 }
 \description{
-Load Project Paths
+Sources the 'file_paths.R' file if it exists. If not, it provides an
+error message instructing the student to set up their project.
 }

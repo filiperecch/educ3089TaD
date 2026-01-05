@@ -7,32 +7,48 @@ Authors@R:
            email = "recch@pitt.edu", 
            role = c("aut", "cre"))
 Description: Provides the computational environment, dependencies, and helper 
-    tools for the EDUC 3089 "Text as Data" course at the University of Pittsburgh 
-    School of Education. This package automates dependency management, installs 
-    custom RStudio snippets for standardized scripting, and configures conflict 
-    resolution to facilitate reproducible research in text analysis.
+    tools for the EDUC 3089 "Text as Data" course at the University of Pittsburgh.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
 Imports: 
     conflicted,
+    discrim,
     dplyr,
     fs,
-    glue,
     ggplot2,
+    ggplot2movies,
+    ggraph,
+    glue,
+    gt,
+    gutenbergr,
+    here,
+    httr2,
+    igraph,
     janitor,
     magrittr,
+    naivebayes,
     purrr,
-    tidyverse,
-    here,
-    tidytext,
     quanteda,
-    quanteda.textstats,
+    quanteda.textmodels,
     quanteda.textplots,
+    quanteda.textstats,
     readtext,
+    rvest,
+    stm,
     textdata,
-    rvest
-RoxygenNote: 7.3.3
+    textrecipes,
+    tidymodels,
+    tidytext,
+    tidyverse,
+    topicmodels,
+    widyr
+Suggests:
+    mall,
+    pdftools,
+    tesseract,
+    text
 URL: https://github.com/filiperecch/educ3089TaD
 BugReports: https://github.com/filiperecch/educ3089TaD/issues
